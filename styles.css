@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* margin: 0;
+    padding: 0; */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-section {
+    background-image: url('background.jpg');
+    background-size: cover;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.search-section form {
+    margin-top: 20px;
+}
+
+.search-section input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    background-color: #f8a400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recommendation {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.car-container {
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.car {
+    /* border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px; */
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    margin: 10px;
+    text-align: center;
+    width: calc(50% - 20px); /* Mengatur lebar untuk dua kolom */
+}
+
+.car img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #7FAFFF; 
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.section {
+    width: 30%;
+}
+
+.section h4 {
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #7FAFFF; 
+}
+
+.app-links {
+    margin-top: 10px;
+}
+
+.app-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
