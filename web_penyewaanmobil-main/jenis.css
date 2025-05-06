@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+  }
+
+  /* Header/Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .nav-left {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav-right a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .user-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #7FAFFF;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Blue Strip */
+  .blue-strip {
+    background-color: #90BEFF;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .center-box {
+    background-color: #dce7ff;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  /* .header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header .left, .header .center, .header .right {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .header .left {
+    text-align: left;
+  }
+  
+  .header .right {
+    text-align: right;
+  }
+  
+  .header a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+  } */
+  
+  .user-box {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .main-container {
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+  }
+  
+  .detail-card {
+    flex: 3;
+    background-color: #e5f6ff;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .car-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .car-info img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  .info-text h2 {
+    margin: 0;
+  }
+  
+  .policy {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .policy ul {
+    padding-left: 20px;
+  }
+  
+  .price-box {
+    flex: 1;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+  }
+  
+  .price {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #7FAFFF;
+    padding: 30px 20px;
+    color: black;
+    margin-top: 40px;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .footer-columns div h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  .store-icon {
+    width: 100px;
+    margin: 5px;
+  }

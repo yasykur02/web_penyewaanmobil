@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #fff;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+  }
+  
+  .nav-left {
+    font-weight: bold;
+  }
+  
+  .nav-right a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .btn-login {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Title */
+  .title-bar {
+    background-color: #a9cefc;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .title-bar h2 {
+    color: #000;
+  }
+  
+  /* Main Content */
+  .container {
+    display: flex;
+    padding: 40px 30px;
+    justify-content: space-between;
+  }
+  
+  .left-section {
+    width: 65%;
+  }
+  
+  .section-box {
+    background: #eee;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
+  .section-box h3 {
+    margin-bottom: 20px;
+  }
+  
+  .section-box form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+  
+  .payment-option img {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .total {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Right Section */
+  .right-section {
+    width: 30%;
+  }
+  
+  .order-summary {
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  .order-summary h4 {
+    margin-bottom: 10px;
+  }
+  
+  /* Continue Button */
+  .continue-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .btn-continue {
+    padding: 10px 25px;
+    background: #0066ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #86b7f7;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+  }
+  
