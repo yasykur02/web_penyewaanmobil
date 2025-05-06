@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="dasboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
     <title>Sewa Mobil</title>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <nav>
             <ul>
                 <li><a href="booking.html">BOOKINGS</a></li>
-                <li><a href="#">DAFTAR</a></li>
+                <li><a href="register.php">DAFTAR</a></li>
                 <li><a href="#">Bagas</a></li>
             </ul>
         </nav>
@@ -26,7 +28,53 @@
             <input type="date" placeholder="Rental End Date">
             <button type="submit">Search</button>
         </form>
-    </section>
+    </section> -->
+
+    <div class="hero">
+    <header>
+      <div class="left-nav">
+        <a href="#">Home</a>
+      </div>
+      <div class="right-nav">
+        <a href="#">BOOKINGS</a>
+        <a href="#"><strong>DAFTAR</strong></a>
+        <button class="profile-btn">Bagas <i class="fa-solid fa-user"></i></button>
+      </div>
+    </header>
+
+    <div class="center-box">
+      <h1>Car Rental</h1>
+      <div class="driver-buttons">
+        <button class="btn-outline">Without Driver</button>
+        <button class="btn-outline">With Driver</button>
+      </div>
+    </div>
+
+    <form class="search-bar">
+      <div class="input-group">
+        <label><i class="fa-solid fa-location-dot"></i></label>
+        <input type="text" placeholder="Your Location">
+      </div>
+      <div class="input-group">
+        <label><i class="fa-solid fa-calendar-days"></i></label>
+        <input type="date">
+      </div>
+      <!-- <div class="input-group">
+        <label><i class="fa-solid fa-clock"></i></label>
+        <input type="time">
+      </div> -->
+      <div class="input-group">
+        <label><i class="fa-solid fa-calendar-days"></i></label>
+        <input type="date">
+      </div>
+      <!-- <div class="input-group">
+        <label><i class="fa-solid fa-clock"></i></label>
+        <input type="time">
+      </div> -->
+      <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+  </div>
+
 
     <section class="recommendation">
         <h2>Rekomendasi Mobil</h2>

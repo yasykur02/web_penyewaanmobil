@@ -1,0 +1,22 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', sans-serif;
+    /* background-color: #f5f5f5; */
+    padding: 30px;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center; /* Menengah secara horizontal */
+    align-items: center; /* Menengah secara vertical (opsional) */
+    height: 10vh; /* Membuat container mengisi tinggi viewport */
+}
+
+table {
+    border-collapse: collapse; /* Menghilangkan border ganda */
+}
+
+th, td {
+    border: 1px solid black; /* Menambahkan border pada sel */
+    padding: 10px; /* Mengatur padding dalam sel */
+}

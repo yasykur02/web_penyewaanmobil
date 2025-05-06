@@ -1,19 +1,25 @@
+<?php
+include "koneksi.php";
+?>
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penyewaan Mobil</title>
-    <link rel="stylesheet" href="booking.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
 </head>
 <body>
     <!-- Navbar/Header -->
     <header class="navbar">
-    <div class="nav-left">Home</div>
+    <div class="nav-left">
+      <a href="dasboard.php">Home</a>
+    </div>
     <div class="nav-right">
-      <a href="#">BOOKINGS</a>
-      <a href="#">DAFTAR</a>
+      <a href="booking.php">BOOKINGS</a>
+      <a href="register.php">DAFTAR</a>
       <div class="user-btn">
         <span>Bagas</span>
         <span class="user-icon">👤</span>
@@ -27,10 +33,22 @@
       <strong>Car Rental Without Driver</strong>
     </div>
   </div>
+  <div>
+    <?php
+    $query = "SELECT * FROM mobil LIMIT 3";
+    $result = mysqli_query($koneksi, $query);
 
-    <div class="car-list">
+    while ($row = mysqli_fetch_assoc($result)) {
+      echo '<h3>' . $row['merk'] . '</h3>';
+      echo '<h3>' . $row['harga_sewa'] . '</h3>';
+      // echo '<h3>' . $row[''] . '</h3>';
+    }
+    ?>
+  </div>
 
-        <!-- Mobil 1 -->
+    <!-- <div class="car-list">
+
+        Mobil 1
         <div class="car-card">
           <img src="innova.png" alt="Toyota Innova" />
           <div class="car-info">
@@ -43,7 +61,7 @@
           </div>
         </div>
     
-        <!-- Mobil 2 -->
+        Mobil 2
         <div class="car-card">
           <img src="avanza.png" alt="Toyota Avanza" />
           <div class="car-info">
@@ -56,7 +74,7 @@
           </div>
         </div>
     
-        <!-- Mobil 3 -->
+        Mobil 3
         <div class="car-card">
           <img src="sigra.png" alt="Daihatsu Sigra" />
           <div class="car-info">
@@ -69,7 +87,7 @@
           </div>
         </div>
     
-      </div>
+      </div> -->
     
       <footer class="footer">
         <div class="footer-content">
